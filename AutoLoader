@@ -1,0 +1,10 @@
+_G.AutoCombine = true
+_G.Gold = true
+_G.Rainbow = true
+
+_G.CombineNumber = 6 -- 6 = 100%, etc.
+_G.Exclusions = {
+    '';
+    '';
+}
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Suiceyed/PSXSimple/main/AutoMain'))()
